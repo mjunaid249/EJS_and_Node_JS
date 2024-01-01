@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Login Now</title>
+  </head>
+  <body>
+    <form action="/add" method="post">
+      <h2>Login Now</h2>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        required
+        placeholder="Name"
+        autocomplete="off"
+      />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="Email"
+        autocomplete="off"
+      />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+        placeholder="Password"
+        autocomplete="off"
+      />
+      <input type="submit" value="Login" id="submit" />
+    </form>
+    <script src="/main.js"></script>
+  </body>
+</html>
